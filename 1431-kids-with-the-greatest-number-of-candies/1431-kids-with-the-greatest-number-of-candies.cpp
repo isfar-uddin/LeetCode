@@ -9,11 +9,8 @@ public:
             }
         }
         for(int i = 0; i < candies.size(); i++) {
-            if(maxCandies <= candies[i] + extraCandies) {
-                ans.push_back(true);
-            } else {
-                ans.push_back(false);
-            }
+            ans.push_back(maxCandies <= candies[i] + extraCandies);
+            
         }
         return ans;
     }
