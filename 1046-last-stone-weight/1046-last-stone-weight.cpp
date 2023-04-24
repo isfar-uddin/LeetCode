@@ -5,18 +5,16 @@ public:
         for(int i = 0; i < stones.size(); i++) {
             pq.push(stones[i]);
         }
-        int secondItem, firstItem;
+        int x, y;
         while(pq.size() > 1) {
-            firstItem = pq.top();
+            y = pq.top();
             pq.pop();
-            if(!pq.empty()) {
-                secondItem = pq.top();
-                pq.pop();
-            }
-            if(firstItem - secondItem) {
-                pq.push(firstItem - secondItem);
+            x = pq.top();
+            pq.pop();
+            if(x != y) {
+                pq.push(y - x);
             }
         }
-        return !pq.size() ? 0 : pq.top();
+        return pq.empty() ? 0 : pq.top();
     }
 };
