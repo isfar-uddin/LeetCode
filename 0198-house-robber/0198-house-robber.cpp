@@ -10,7 +10,7 @@ public:
         if(num >= nums.size()) {
             return 0;
         }
-        if(dp[num] > -1) {
+        if(dp[num] != -1) {
             return dp[num];
         }
         int ans = max(findMaxRobbery(nums, num + 1), findMaxRobbery(nums, num + 2) + nums[num]);
