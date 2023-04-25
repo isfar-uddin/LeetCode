@@ -1,6 +1,6 @@
 class SmallestInfiniteSet {
 public:
-    set<int> numSet;
+    unordered_set<int> numSet;
     priority_queue<int, vector<int>, greater<int>> pq; 
     SmallestInfiniteSet() {
         for(int i = 1; i <= 1000; i++) {
