@@ -1,13 +1,20 @@
 class Solution {
 public:
+    long long dp[100005];
     long long mostPoints(vector<vector<int>>& questions) {
-        vector<long long> dp(questions.size(), 0);
-        return dfs(questions, 0, dp);
+        memset(dp, -1, sizeof dp);
+        return findMostPoints(questions, 0);
     }
-    long long dfs(vector<vector<int>>& Q, int i, vector<long long>& dp) {
-        if (i >= Q.size()) return 0;
-        if (dp[i] > 0) return dp[i];
-        int points = Q[i][0], jump = Q[i][1];
-        return dp[i] = max(dfs(Q, i + 1, dp), points + dfs(Q, i + jump + 1, dp));
+    
+    long long findMostPoints(vector<vector<int>>& questions, int i) {
+        if(i >= questions.size()) {
+            return 0;
+        }
+        
+        if(dp[i] != -1) {
+            return dp[i];
+        }
+        
+        return dp[i] = max(questions[i][0] + findMostPoints(questions, i + questions[i][1] + 1), findMostPoints(questions, i + 1));
     }
 };
