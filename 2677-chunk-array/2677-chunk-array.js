@@ -5,19 +5,10 @@
  */
 var chunk = function(arr, size) {
     const chunkArr = [];
-    let tempArr = [];
-    let i = 1;
-    for(i = 1; i <= arr.length; i++) {
-        tempArr.push(arr[i - 1]);
-        if(i % size === 0) {
-            chunkArr.push(tempArr);
-            tempArr = [];
-        }
+    let index = 0;
+    while(index < arr.length) {
+        chunkArr.push(arr.slice(index, index + size));
+        index += size;
     }
-    
-    if((i - 1) % size !== 0) {
-        chunkArr.push(tempArr);
-    }
-    
     return chunkArr;
 };
