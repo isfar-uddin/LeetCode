@@ -1,7 +1,7 @@
 class Solution {
 public:
     int findGCD(int a, int b) {
-        return b == 0 ? a : gcd(b, a % b);
+        return b == 0 ? a : findGCD(b, a % b);
     }
     
     
