@@ -11,24 +11,37 @@
 class Solution {
 public:
     ListNode* reverseList(ListNode* head) {
-        ListNode* prev = NULL, *curr = head;
+        ListNode* curr = head;
+        vector<int> arr;
+        
         while(curr) {
-            ListNode* temp = curr -> next;
-            curr -> next = prev;
-            prev = curr;
-            curr = temp;
+            arr.push_back(curr -> val);
+            curr = curr -> next;
         }
-        return prev;
+        
+        curr = head;
+        
+        for(int i = arr.size() - 1; i >= 0; i--) {
+            curr -> val = arr[i];
+            curr = curr -> next;
+        }
+        
+        return head;
     }
 };
 
 /*
-prev = NULL;
+
+Approach: 2 (Replace just value)
+arr -> 1, 2, 3, 4, 5
 while(curr) {
-    temp = curr -> next;
-    curr -> next = prev;
-    prev = curr;
-    curr = temp;
+    arr.push_back(curr -> val);
+    curr = curr -> next;
+}
+curr = head;
+for(i = length - 1; i >= 0; i--) {
+    curr -> val = arr[i];
+    curr = curr -> next;
 }
 
 */
