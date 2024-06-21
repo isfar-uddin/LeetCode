@@ -11,15 +11,13 @@ public:
         
         for(auto it = mp.begin(); it != mp.end(); it++) {
             pq.push({it -> second, it -> first});
+            
+            if(pq.size() > mp.size() - k) {
+                ans.push_back(pq.top().second);
+                pq.pop();
+            }
         }
         
-        while(!pq.empty()) {
-            ans.push_back(pq.top().second);
-            k--;
-            pq.pop();
-            if(k == 0) return ans;
-        }
-        
-        return {};
+        return ans;
     }
 };
