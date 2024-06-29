@@ -9,10 +9,10 @@ public:
             st.insert(nums[i]);
         }
         
-        for(int i = 0; i < nums.size(); i++) {
-            if(st.find(nums[i] - 1) == st.end()) {
+        for(auto it : st) {
+            if(st.find(it - 1) == st.end()) {
                 int length = 0;
-                while(st.find(nums[i] + length) != st.end()) {
+                while(st.find(it + length) != st.end()) {
                     length++;
                 }
                 ans = max(ans, length);
