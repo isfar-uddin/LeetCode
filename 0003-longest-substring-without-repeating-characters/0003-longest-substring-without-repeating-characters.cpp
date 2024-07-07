@@ -6,11 +6,7 @@ public:
         int size = s.size();
         
         while(end < size) {
-            if(mp.find(s[end]) == mp.end()) {
-                maxLen = max(maxLen, end - start + 1);
-                mp[s[end]] = end;
-                end++;
-            } else if(start > mp[s[end]]) {
+            if(mp.find(s[end]) == mp.end() || start > mp[s[end]]) {
                 maxLen = max(maxLen, end - start + 1);
                 mp[s[end]] = end;
                 end++;
