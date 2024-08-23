@@ -5,9 +5,7 @@ public:
         int length = nums.size();
         
         for(int i = 0; i < length; i++) {
-            if(length > nums[i]) {
-                ans.push_back(nums[nums[i]]);
-            }
+            ans.push_back(nums[nums[i]]);
         }
         
         return ans;
