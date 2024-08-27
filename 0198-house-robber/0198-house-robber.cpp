@@ -3,18 +3,16 @@ public:
     int dp[101];
     int rob(vector<int>& nums) {
         memset(dp, -1, sizeof dp);
-        return findMaxRobbery(nums, 0);
+        return max(findMaxAmount(0, nums), findMaxAmount(1, nums));
     }
     
-    int findMaxRobbery(vector<int>& nums, int num) {
-        if(num >= nums.size()) {
-            return 0;
-        }
-        if(dp[num] != -1) {
-            return dp[num];
-        }
-        int ans = max(findMaxRobbery(nums, num + 1), findMaxRobbery(nums, num + 2) + nums[num]);
-        dp[num] = ans;
-        return ans;
+    int findMaxAmount(int index, vector<int>& nums) {
+        if(index >= nums.size()) return 0;
+        
+        if(dp[index] != -1) return dp[index];
+        
+        if(index == nums.size() - 1) return nums[index];
+        
+        return dp[index] = nums[index] + max(findMaxAmount(index + 2, nums), findMaxAmount(index + 3, nums));
     }
 };
