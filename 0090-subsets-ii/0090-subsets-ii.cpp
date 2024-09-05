@@ -17,9 +17,8 @@ public:
             ans.insert(res);
             return;
         }
-        res.push_back(nums[index]);
         backtracking(nums, index + 1, res);
-        res.pop_back();
+        res.push_back(nums[index]);
         backtracking(nums, index + 1, res);
         return;
     }
