@@ -1,11 +1,15 @@
 class Solution {
 public:
     bool containsDuplicate(vector<int>& nums) {
-        unordered_set <int> numSet;
+        map<int, int> myMap;
         for(int i = 0; i < nums.size(); i++) {
-            if(numSet.find(nums[i]) != numSet.end()) return true;
-            numSet.insert(nums[i]);
+            if(myMap.contains(nums[i])) {
+                return true;
+            } else {
+                myMap[nums[i]] = true;
+            }
         }
+
         return false;
     }
 };
