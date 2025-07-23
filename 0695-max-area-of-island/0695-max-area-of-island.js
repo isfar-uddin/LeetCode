@@ -2,12 +2,19 @@
  * @param {number[][]} grid
  * @return {number}
  */
-var maxAreaOfIsland = function(grid) {
+var maxAreaOfIsland = function (grid) {
+    const getIslandArea = function (i, j) {
+        if (!grid[i]?.[j]) return 0;
+
+        grid[i][j] = 0;
+        return 1 + getIslandArea(i + 1, j) + getIslandArea(i - 1, j) + getIslandArea(i, j + 1) + getIslandArea(i, j - 1)
+    }
+
     let maxArea = 0;
-    for(let i = 0; i < grid.length; i++) {
-        for(let j = 0; j < grid[i].length; j++) {
-            if(grid[i][j] == '1') {
-                const area = dfs(grid, i, j, 1);
+    for (let i = 0; i < grid.length; i++) {
+        for (let j = 0; j < grid[i].length; j++) {
+            if (grid[i][j]) {
+                const area = getIslandArea(i, j);
                 maxArea = Math.max(area, maxArea);
             }
         }
@@ -15,15 +22,3 @@ var maxAreaOfIsland = function(grid) {
 
     return maxArea;
 };
-
-var dfs = function(grid, i, j, count) {
-    if(i < 0 || j < 0 || i >= grid.length || j >= grid[i].length || grid[i][j] == '0')
-    {
-        return 0;
-    }
-    grid[i][j] = 0;
-
-    count = count + dfs(grid, i + 1, j, count) + dfs(grid, i - 1, j, count) + dfs(grid, i, j + 1, count) + dfs(grid, i, j - 1, count);
-
-    return count;
-}
