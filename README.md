@@ -79,6 +79,7 @@ The purpose of this repo is to collect all the leetcode solutions in one place
 | ------- |
 | [0130-surrounded-regions](https://github.com/isfar-uddin/LeetCode/tree/master/0130-surrounded-regions) |
 | [0200-number-of-islands](https://github.com/isfar-uddin/LeetCode/tree/master/0200-number-of-islands) |
+| [0207-course-schedule](https://github.com/isfar-uddin/LeetCode/tree/master/0207-course-schedule) |
 | [0417-pacific-atlantic-water-flow](https://github.com/isfar-uddin/LeetCode/tree/master/0417-pacific-atlantic-water-flow) |
 | [0695-max-area-of-island](https://github.com/isfar-uddin/LeetCode/tree/master/0695-max-area-of-island) |
 ## Breadth-First Search
@@ -86,6 +87,7 @@ The purpose of this repo is to collect all the leetcode solutions in one place
 | ------- |
 | [0130-surrounded-regions](https://github.com/isfar-uddin/LeetCode/tree/master/0130-surrounded-regions) |
 | [0200-number-of-islands](https://github.com/isfar-uddin/LeetCode/tree/master/0200-number-of-islands) |
+| [0207-course-schedule](https://github.com/isfar-uddin/LeetCode/tree/master/0207-course-schedule) |
 | [0417-pacific-atlantic-water-flow](https://github.com/isfar-uddin/LeetCode/tree/master/0417-pacific-atlantic-water-flow) |
 | [0695-max-area-of-island](https://github.com/isfar-uddin/LeetCode/tree/master/0695-max-area-of-island) |
 | [1036-rotting-oranges](https://github.com/isfar-uddin/LeetCode/tree/master/1036-rotting-oranges) |
@@ -97,4 +99,12 @@ The purpose of this repo is to collect all the leetcode solutions in one place
 | [0417-pacific-atlantic-water-flow](https://github.com/isfar-uddin/LeetCode/tree/master/0417-pacific-atlantic-water-flow) |
 | [0695-max-area-of-island](https://github.com/isfar-uddin/LeetCode/tree/master/0695-max-area-of-island) |
 | [1036-rotting-oranges](https://github.com/isfar-uddin/LeetCode/tree/master/1036-rotting-oranges) |
+## Graph
+|  |
+| ------- |
+| [0207-course-schedule](https://github.com/isfar-uddin/LeetCode/tree/master/0207-course-schedule) |
+## Topological Sort
+|  |
+| ------- |
+| [0207-course-schedule](https://github.com/isfar-uddin/LeetCode/tree/master/0207-course-schedule) |
 <!---LeetCode Topics End-->
