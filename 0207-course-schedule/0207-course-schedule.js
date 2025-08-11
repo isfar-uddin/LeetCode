@@ -3,35 +3,45 @@
  * @param {number[][]} prerequisites
  * @return {boolean}
  */
-var canFinish = function (numCourses, prerequisites) {
+var canFinish = function(numCourses, prerequisites) {
     let preMap = {};
     let visited = {};
 
-    for (let i = 0; i < prerequisites.length; i++) {
-        const curr = prerequisites[i];
-        if(preMap[curr[0]] == undefined) {
-            preMap[curr[0]] = [curr[1]];
-        } else {
-            preMap[curr[0]].push(curr[1]);
+    function dfs(currNode) {
+        if(visited[currNode]) {
+            return false;
         }
+
+        if(!preMap[currNode]?.length) {
+            return true;
+        }
+
+        visited[currNode] = true;
+
+        for(let i = 0; i < preMap[currNode].length; i++) {
+            if(!dfs(preMap[currNode][i])) {
+                return false;
+            }
+        }
+
+        visited[currNode] = false;
+        preMap[currNode] = [];
+
+        return true;
+
     }
 
-    const dfs = (node) => {
-        if (visited[node]) return false;
-        if (!preMap[node]?.length) return true;
-
-        visited[node] = true;
-
-        for (let i = 0; i < preMap[node].length; i++) {
-            if (!dfs(preMap[node][i])) return false;
+    for(let i = 0; i < prerequisites.length; i++) {
+        const currItem = prerequisites[i];
+        if(preMap[currItem[0]] == undefined) {
+            preMap[currItem[0]] = [currItem[1]];
+        } else {
+            preMap[currItem[0]].push(currItem[1]);
         }
-        preMap[node] = [];
-        visited[node] = false
-        return true;
     }
 
     for(let key in preMap) {
-        if (!dfs(key)) {
+        if(!dfs(key)) {
             return false;
         }
     }
