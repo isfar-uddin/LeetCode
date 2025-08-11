@@ -12,13 +12,9 @@ var canFinish = function(numCourses, prerequisites) {
             return false;
         }
 
-        if(!preMap[currNode]?.length) {
-            return true;
-        }
-
         visited[currNode] = true;
 
-        for(let i = 0; i < preMap[currNode].length; i++) {
+        for(let i = 0; i < preMap[currNode]?.length; i++) {
             if(!dfs(preMap[currNode][i])) {
                 return false;
             }
