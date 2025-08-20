@@ -3,9 +3,7 @@
  * @return {number[]}
  */
 var findRedundantConnection = function (edges) {
-    const dsu = [];
-
-    edges.forEach((_, index) => dsu.push(index));
+    const dsu = edges.map((_, index) => index);
 
     const findParent = (node) => {
         while (dsu[node] != node) {
