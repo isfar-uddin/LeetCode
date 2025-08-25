@@ -23,6 +23,7 @@ The purpose of this repo is to collect all the leetcode solutions in one place
 | ------- |
 | [0001-two-sum](https://github.com/isfar-uddin/LeetCode/tree/master/0001-two-sum) |
 | [0049-group-anagrams](https://github.com/isfar-uddin/LeetCode/tree/master/0049-group-anagrams) |
+| [0127-word-ladder](https://github.com/isfar-uddin/LeetCode/tree/master/0127-word-ladder) |
 | [0128-longest-consecutive-sequence](https://github.com/isfar-uddin/LeetCode/tree/master/0128-longest-consecutive-sequence) |
 | [0217-contains-duplicate](https://github.com/isfar-uddin/LeetCode/tree/master/0217-contains-duplicate) |
 | [0242-valid-anagram](https://github.com/isfar-uddin/LeetCode/tree/master/0242-valid-anagram) |
@@ -38,6 +39,7 @@ The purpose of this repo is to collect all the leetcode solutions in one place
 |  |
 | ------- |
 | [0049-group-anagrams](https://github.com/isfar-uddin/LeetCode/tree/master/0049-group-anagrams) |
+| [0127-word-ladder](https://github.com/isfar-uddin/LeetCode/tree/master/0127-word-ladder) |
 | [0242-valid-anagram](https://github.com/isfar-uddin/LeetCode/tree/master/0242-valid-anagram) |
 ## Divide and Conquer
 |  |
@@ -88,6 +90,7 @@ The purpose of this repo is to collect all the leetcode solutions in one place
 ## Breadth-First Search
 |  |
 | ------- |
+| [0127-word-ladder](https://github.com/isfar-uddin/LeetCode/tree/master/0127-word-ladder) |
 | [0130-surrounded-regions](https://github.com/isfar-uddin/LeetCode/tree/master/0130-surrounded-regions) |
 | [0200-number-of-islands](https://github.com/isfar-uddin/LeetCode/tree/master/0200-number-of-islands) |
 | [0207-course-schedule](https://github.com/isfar-uddin/LeetCode/tree/master/0207-course-schedule) |
