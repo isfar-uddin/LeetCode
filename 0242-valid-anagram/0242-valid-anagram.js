@@ -8,28 +8,15 @@ var isAnagram = function(s, t) {
       return false;
     }
 
-    const countMap = new Map();
+    const arr = new Array(26).fill(0);
+    const base = 'a'.charCodeAt(0);
 
     for(let i = 0; i < s.length; i++) {
-      if(!countMap.has(s[i])) {
-        countMap.set(s[i], -1);
-      } else {
-        countMap.set(s[i], countMap.get(s[i]) - 1);
-      }
-      if(!countMap.has(t[i])) {
-        countMap.set(t[i], 1);
-      } else {
-        countMap.set(t[i], countMap.get(t[i]) + 1);
-      }
+      arr[s.charCodeAt(i) - base]++;
+      arr[t.charCodeAt(i) - base]--;
     }
 
-    for(let value of countMap.values()) {
-      if(value != 0) {
-        return false;
-      }
-    }
-
-    return true;
+    return arr.every(count => count === 0);
 };
 
 /* 
