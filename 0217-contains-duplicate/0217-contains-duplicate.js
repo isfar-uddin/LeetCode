@@ -26,7 +26,7 @@ return false
 TC -> O(n^2)
 SC -> O(1)
 
-map -> 
+map/set -> 
 for(i = 0 -> n - 1)
   if(map[nums[i]]) return true;
 return false;
