@@ -11,6 +11,7 @@ The purpose of this repo is to collect all the leetcode solutions in one place
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/isfar-uddin/LeetCode/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0128-longest-consecutive-sequence](https://github.com/isfar-uddin/LeetCode/tree/master/0128-longest-consecutive-sequence) |
 | [0130-surrounded-regions](https://github.com/isfar-uddin/LeetCode/tree/master/0130-surrounded-regions) |
+| [0167-two-sum-ii-input-array-is-sorted](https://github.com/isfar-uddin/LeetCode/tree/master/0167-two-sum-ii-input-array-is-sorted) |
 | [0200-number-of-islands](https://github.com/isfar-uddin/LeetCode/tree/master/0200-number-of-islands) |
 | [0217-contains-duplicate](https://github.com/isfar-uddin/LeetCode/tree/master/0217-contains-duplicate) |
 | [0238-product-of-array-except-self](https://github.com/isfar-uddin/LeetCode/tree/master/0238-product-of-array-except-self) |
@@ -118,4 +119,12 @@ The purpose of this repo is to collect all the leetcode solutions in one place
 | ------- |
 | [0207-course-schedule](https://github.com/isfar-uddin/LeetCode/tree/master/0207-course-schedule) |
 | [0210-course-schedule-ii](https://github.com/isfar-uddin/LeetCode/tree/master/0210-course-schedule-ii) |
+## Two Pointers
+|  |
+| ------- |
+| [0167-two-sum-ii-input-array-is-sorted](https://github.com/isfar-uddin/LeetCode/tree/master/0167-two-sum-ii-input-array-is-sorted) |
+## Binary Search
+|  |
+| ------- |
+| [0167-two-sum-ii-input-array-is-sorted](https://github.com/isfar-uddin/LeetCode/tree/master/0167-two-sum-ii-input-array-is-sorted) |
 <!---LeetCode Topics End-->
