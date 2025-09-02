@@ -13,9 +13,31 @@
  */
 var findTarget = function (root, k) {
   const set = new Set();
+
+  /* BFS implementation */
+
+  const queue = [];
+  queue.push(root);
+
+  while (queue.length) {
+    let length = queue.length;
+
+    while (length--) {
+      const node = queue.shift();
+
+      if (set.has(node.val)) return true;
+
+      set.add(k - node.val);
+      if (node.left) queue.push(node.left);
+      if (node.right) queue.push(node.right);
+    }
+  }
+
+  return false;
+
   const bst = node => {
-    if(!node) return false;
-    if(set.has(node.val)) return true;
+    if (!node) return false;
+    if (set.has(node.val)) return true;
     set.add(k - node.val);
     return bst(node.left) || bst(node.right);
   }
