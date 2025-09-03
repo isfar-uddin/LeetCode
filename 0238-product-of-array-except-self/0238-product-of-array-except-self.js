@@ -13,7 +13,7 @@ var productExceptSelf = function(nums) {
 
     for(let i = 0; i < nums.length; i++) {
       ans[i] *= curr;
-      curr *= nums[i]
+      curr *= nums[i];
     }
 
     return ans;
