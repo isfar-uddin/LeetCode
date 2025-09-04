@@ -7,6 +7,7 @@ The purpose of this repo is to collect all the leetcode solutions in one place
 |  |
 | ------- |
 | [0001-two-sum](https://github.com/isfar-uddin/LeetCode/tree/master/0001-two-sum) |
+| [0015-3sum](https://github.com/isfar-uddin/LeetCode/tree/master/0015-3sum) |
 | [0049-group-anagrams](https://github.com/isfar-uddin/LeetCode/tree/master/0049-group-anagrams) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/isfar-uddin/LeetCode/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0128-longest-consecutive-sequence](https://github.com/isfar-uddin/LeetCode/tree/master/0128-longest-consecutive-sequence) |
@@ -33,6 +34,7 @@ The purpose of this repo is to collect all the leetcode solutions in one place
 ## Sorting
 |  |
 | ------- |
+| [0015-3sum](https://github.com/isfar-uddin/LeetCode/tree/master/0015-3sum) |
 | [0049-group-anagrams](https://github.com/isfar-uddin/LeetCode/tree/master/0049-group-anagrams) |
 | [0217-contains-duplicate](https://github.com/isfar-uddin/LeetCode/tree/master/0217-contains-duplicate) |
 | [0242-valid-anagram](https://github.com/isfar-uddin/LeetCode/tree/master/0242-valid-anagram) |
@@ -126,6 +128,7 @@ The purpose of this repo is to collect all the leetcode solutions in one place
 ## Two Pointers
 |  |
 | ------- |
+| [0015-3sum](https://github.com/isfar-uddin/LeetCode/tree/master/0015-3sum) |
 | [0125-valid-palindrome](https://github.com/isfar-uddin/LeetCode/tree/master/0125-valid-palindrome) |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/isfar-uddin/LeetCode/tree/master/0167-two-sum-ii-input-array-is-sorted) |
 | [0653-two-sum-iv-input-is-a-bst](https://github.com/isfar-uddin/LeetCode/tree/master/0653-two-sum-iv-input-is-a-bst) |
