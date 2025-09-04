@@ -41,6 +41,7 @@ The purpose of this repo is to collect all the leetcode solutions in one place
 |  |
 | ------- |
 | [0049-group-anagrams](https://github.com/isfar-uddin/LeetCode/tree/master/0049-group-anagrams) |
+| [0125-valid-palindrome](https://github.com/isfar-uddin/LeetCode/tree/master/0125-valid-palindrome) |
 | [0127-word-ladder](https://github.com/isfar-uddin/LeetCode/tree/master/0127-word-ladder) |
 | [0242-valid-anagram](https://github.com/isfar-uddin/LeetCode/tree/master/0242-valid-anagram) |
 ## Divide and Conquer
@@ -125,6 +126,7 @@ The purpose of this repo is to collect all the leetcode solutions in one place
 ## Two Pointers
 |  |
 | ------- |
+| [0125-valid-palindrome](https://github.com/isfar-uddin/LeetCode/tree/master/0125-valid-palindrome) |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/isfar-uddin/LeetCode/tree/master/0167-two-sum-ii-input-array-is-sorted) |
 | [0653-two-sum-iv-input-is-a-bst](https://github.com/isfar-uddin/LeetCode/tree/master/0653-two-sum-iv-input-is-a-bst) |
 ## Binary Search
