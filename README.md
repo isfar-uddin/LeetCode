@@ -7,6 +7,7 @@ The purpose of this repo is to collect all the leetcode solutions in one place
 |  |
 | ------- |
 | [0001-two-sum](https://github.com/isfar-uddin/LeetCode/tree/master/0001-two-sum) |
+| [0011-container-with-most-water](https://github.com/isfar-uddin/LeetCode/tree/master/0011-container-with-most-water) |
 | [0015-3sum](https://github.com/isfar-uddin/LeetCode/tree/master/0015-3sum) |
 | [0049-group-anagrams](https://github.com/isfar-uddin/LeetCode/tree/master/0049-group-anagrams) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/isfar-uddin/LeetCode/tree/master/0121-best-time-to-buy-and-sell-stock) |
@@ -128,6 +129,7 @@ The purpose of this repo is to collect all the leetcode solutions in one place
 ## Two Pointers
 |  |
 | ------- |
+| [0011-container-with-most-water](https://github.com/isfar-uddin/LeetCode/tree/master/0011-container-with-most-water) |
 | [0015-3sum](https://github.com/isfar-uddin/LeetCode/tree/master/0015-3sum) |
 | [0125-valid-palindrome](https://github.com/isfar-uddin/LeetCode/tree/master/0125-valid-palindrome) |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/isfar-uddin/LeetCode/tree/master/0167-two-sum-ii-input-array-is-sorted) |
@@ -148,4 +150,8 @@ The purpose of this repo is to collect all the leetcode solutions in one place
 |  |
 | ------- |
 | [0653-two-sum-iv-input-is-a-bst](https://github.com/isfar-uddin/LeetCode/tree/master/0653-two-sum-iv-input-is-a-bst) |
+## Greedy
+|  |
+| ------- |
+| [0011-container-with-most-water](https://github.com/isfar-uddin/LeetCode/tree/master/0011-container-with-most-water) |
 <!---LeetCode Topics End-->
