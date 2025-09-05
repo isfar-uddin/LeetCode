@@ -32,6 +32,7 @@ The purpose of this repo is to collect all the leetcode solutions in one place
 | [0217-contains-duplicate](https://github.com/isfar-uddin/LeetCode/tree/master/0217-contains-duplicate) |
 | [0242-valid-anagram](https://github.com/isfar-uddin/LeetCode/tree/master/0242-valid-anagram) |
 | [0347-top-k-frequent-elements](https://github.com/isfar-uddin/LeetCode/tree/master/0347-top-k-frequent-elements) |
+| [0424-longest-repeating-character-replacement](https://github.com/isfar-uddin/LeetCode/tree/master/0424-longest-repeating-character-replacement) |
 | [0653-two-sum-iv-input-is-a-bst](https://github.com/isfar-uddin/LeetCode/tree/master/0653-two-sum-iv-input-is-a-bst) |
 ## Sorting
 |  |
@@ -49,6 +50,7 @@ The purpose of this repo is to collect all the leetcode solutions in one place
 | [0125-valid-palindrome](https://github.com/isfar-uddin/LeetCode/tree/master/0125-valid-palindrome) |
 | [0127-word-ladder](https://github.com/isfar-uddin/LeetCode/tree/master/0127-word-ladder) |
 | [0242-valid-anagram](https://github.com/isfar-uddin/LeetCode/tree/master/0242-valid-anagram) |
+| [0424-longest-repeating-character-replacement](https://github.com/isfar-uddin/LeetCode/tree/master/0424-longest-repeating-character-replacement) |
 ## Divide and Conquer
 |  |
 | ------- |
@@ -160,4 +162,5 @@ The purpose of this repo is to collect all the leetcode solutions in one place
 |  |
 | ------- |
 | [0003-longest-substring-without-repeating-characters](https://github.com/isfar-uddin/LeetCode/tree/master/0003-longest-substring-without-repeating-characters) |
+| [0424-longest-repeating-character-replacement](https://github.com/isfar-uddin/LeetCode/tree/master/0424-longest-repeating-character-replacement) |
 <!---LeetCode Topics End-->
