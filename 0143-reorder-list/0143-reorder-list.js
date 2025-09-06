@@ -34,6 +34,7 @@ var reorderList = function (head) {
   slow = head;
   fast = prev;
 
+  // merge two list
   while (slow && fast) {
     let temp = slow.next;
     slow.next = fast;
