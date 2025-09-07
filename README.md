@@ -12,6 +12,7 @@ The purpose of this repo is to collect all the leetcode solutions in one place
 | [0033-search-in-rotated-sorted-array](https://github.com/isfar-uddin/LeetCode/tree/master/0033-search-in-rotated-sorted-array) |
 | [0039-combination-sum](https://github.com/isfar-uddin/LeetCode/tree/master/0039-combination-sum) |
 | [0049-group-anagrams](https://github.com/isfar-uddin/LeetCode/tree/master/0049-group-anagrams) |
+| [0079-word-search](https://github.com/isfar-uddin/LeetCode/tree/master/0079-word-search) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/isfar-uddin/LeetCode/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0128-longest-consecutive-sequence](https://github.com/isfar-uddin/LeetCode/tree/master/0128-longest-consecutive-sequence) |
 | [0130-surrounded-regions](https://github.com/isfar-uddin/LeetCode/tree/master/0130-surrounded-regions) |
@@ -52,6 +53,7 @@ The purpose of this repo is to collect all the leetcode solutions in one place
 | [0003-longest-substring-without-repeating-characters](https://github.com/isfar-uddin/LeetCode/tree/master/0003-longest-substring-without-repeating-characters) |
 | [0020-valid-parentheses](https://github.com/isfar-uddin/LeetCode/tree/master/0020-valid-parentheses) |
 | [0049-group-anagrams](https://github.com/isfar-uddin/LeetCode/tree/master/0049-group-anagrams) |
+| [0079-word-search](https://github.com/isfar-uddin/LeetCode/tree/master/0079-word-search) |
 | [0125-valid-palindrome](https://github.com/isfar-uddin/LeetCode/tree/master/0125-valid-palindrome) |
 | [0127-word-ladder](https://github.com/isfar-uddin/LeetCode/tree/master/0127-word-ladder) |
 | [0242-valid-anagram](https://github.com/isfar-uddin/LeetCode/tree/master/0242-valid-anagram) |
@@ -96,6 +98,7 @@ The purpose of this repo is to collect all the leetcode solutions in one place
 ## Depth-First Search
 |  |
 | ------- |
+| [0079-word-search](https://github.com/isfar-uddin/LeetCode/tree/master/0079-word-search) |
 | [0130-surrounded-regions](https://github.com/isfar-uddin/LeetCode/tree/master/0130-surrounded-regions) |
 | [0200-number-of-islands](https://github.com/isfar-uddin/LeetCode/tree/master/0200-number-of-islands) |
 | [0207-course-schedule](https://github.com/isfar-uddin/LeetCode/tree/master/0207-course-schedule) |
@@ -120,6 +123,7 @@ The purpose of this repo is to collect all the leetcode solutions in one place
 ## Matrix
 |  |
 | ------- |
+| [0079-word-search](https://github.com/isfar-uddin/LeetCode/tree/master/0079-word-search) |
 | [0130-surrounded-regions](https://github.com/isfar-uddin/LeetCode/tree/master/0130-surrounded-regions) |
 | [0200-number-of-islands](https://github.com/isfar-uddin/LeetCode/tree/master/0200-number-of-islands) |
 | [0417-pacific-atlantic-water-flow](https://github.com/isfar-uddin/LeetCode/tree/master/0417-pacific-atlantic-water-flow) |
@@ -208,4 +212,5 @@ The purpose of this repo is to collect all the leetcode solutions in one place
 |  |
 | ------- |
 | [0039-combination-sum](https://github.com/isfar-uddin/LeetCode/tree/master/0039-combination-sum) |
+| [0079-word-search](https://github.com/isfar-uddin/LeetCode/tree/master/0079-word-search) |
 <!---LeetCode Topics End-->
