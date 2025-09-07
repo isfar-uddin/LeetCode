@@ -9,7 +9,7 @@ var combinationSum = function (candidates, target) {
   const dfs = (arr, index, currTarget) => {
     if (currTarget === 0) {
       console.log(arr);
-      ans.push(arr);
+      ans.push([...arr]);
       return;
     }
 
@@ -18,9 +18,9 @@ var combinationSum = function (candidates, target) {
     }
 
     arr.push(candidates[index]);
-    dfs([...arr], index, currTarget - candidates[index]);
+    dfs(arr, index, currTarget - candidates[index]);
     arr.pop();
-    dfs([...arr], index + 1, currTarget);
+    dfs(arr, index + 1, currTarget);
   }
 
   dfs([], 0, target);
