@@ -5,8 +5,8 @@
 var pacificAtlantic = function (heights) {
   const rowSize = heights.length;
   const columnSize = heights[0].length;
-  const pacific = Array.from({ length: rowSize }, () => Array.from({ length: columnSize }, () => false));
-  const atlantic = Array.from({ length: rowSize }, () => Array.from({ length: columnSize }, () => false));
+  const pacific = Array.from({ length: rowSize }, () => Array(columnSize).fill(false));
+  const atlantic = Array.from({ length: rowSize }, () => Array(columnSize).fill(false));
 
   const backtrack = (i, j, ocean) => {
     if (i < 0 || j < 0 || i >= rowSize || j >= columnSize || ocean[i][j]) return;
