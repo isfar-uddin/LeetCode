@@ -31,12 +31,16 @@ var pacificAtlantic = function (heights) {
   }
 
   for (let i = 0; i < rowSize; i++) {
+    // Find the isLand that can be reached from pacific 
     backtrack(i, 0, pacific);
+    // Find the isLand that can be reached from atlantic
     backtrack(i, columnSize - 1, atlantic);
   }
 
   for (let i = 0; i < columnSize; i++) {
+    // Find the isLand that can be reached from pacific
     backtrack(0, i, pacific);
+    // Find the isLand that can be reached from atlantic
     backtrack(rowSize - 1, i, atlantic);
   }
 
