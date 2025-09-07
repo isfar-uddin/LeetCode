@@ -31,15 +31,13 @@ var pacificAtlantic = function (heights) {
   }
 
   for (let i = 0; i < rowSize; i++) {
-    for (let j = 0; j < columnSize; j++) {
-      if (i == 0 || j == 0) {
-        backtrack(i, j, pacific);
-      }
+    backtrack(i, 0, pacific);
+    backtrack(i, columnSize - 1, atlantic);
+  }
 
-      if (i == rowSize - 1 || j == columnSize - 1) {
-        backtrack(i, j, atlantic);
-      }
-    }
+  for (let i = 0; i < columnSize; i++) {
+    backtrack(0, i, pacific);
+    backtrack(rowSize - 1, i, atlantic);
   }
 
   const ans = [];
