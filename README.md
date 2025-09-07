@@ -10,6 +10,7 @@ The purpose of this repo is to collect all the leetcode solutions in one place
 | [0011-container-with-most-water](https://github.com/isfar-uddin/LeetCode/tree/master/0011-container-with-most-water) |
 | [0015-3sum](https://github.com/isfar-uddin/LeetCode/tree/master/0015-3sum) |
 | [0033-search-in-rotated-sorted-array](https://github.com/isfar-uddin/LeetCode/tree/master/0033-search-in-rotated-sorted-array) |
+| [0039-combination-sum](https://github.com/isfar-uddin/LeetCode/tree/master/0039-combination-sum) |
 | [0049-group-anagrams](https://github.com/isfar-uddin/LeetCode/tree/master/0049-group-anagrams) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/isfar-uddin/LeetCode/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0128-longest-consecutive-sequence](https://github.com/isfar-uddin/LeetCode/tree/master/0128-longest-consecutive-sequence) |
@@ -203,4 +204,8 @@ The purpose of this repo is to collect all the leetcode solutions in one place
 |  |
 | ------- |
 | [0789-kth-largest-element-in-a-stream](https://github.com/isfar-uddin/LeetCode/tree/master/0789-kth-largest-element-in-a-stream) |
+## Backtracking
+|  |
+| ------- |
+| [0039-combination-sum](https://github.com/isfar-uddin/LeetCode/tree/master/0039-combination-sum) |
 <!---LeetCode Topics End-->
