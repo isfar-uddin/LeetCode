@@ -95,6 +95,7 @@ The purpose of this repo is to collect all the leetcode solutions in one place
 ## Dynamic Programming
 |  |
 | ------- |
+| [0070-climbing-stairs](https://github.com/isfar-uddin/LeetCode/tree/master/0070-climbing-stairs) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/isfar-uddin/LeetCode/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0152-maximum-product-subarray](https://github.com/isfar-uddin/LeetCode/tree/master/0152-maximum-product-subarray) |
 ## Depth-First Search
@@ -215,4 +216,12 @@ The purpose of this repo is to collect all the leetcode solutions in one place
 | ------- |
 | [0039-combination-sum](https://github.com/isfar-uddin/LeetCode/tree/master/0039-combination-sum) |
 | [0079-word-search](https://github.com/isfar-uddin/LeetCode/tree/master/0079-word-search) |
+## Math
+|  |
+| ------- |
+| [0070-climbing-stairs](https://github.com/isfar-uddin/LeetCode/tree/master/0070-climbing-stairs) |
+## Memoization
+|  |
+| ------- |
+| [0070-climbing-stairs](https://github.com/isfar-uddin/LeetCode/tree/master/0070-climbing-stairs) |
 <!---LeetCode Topics End-->
