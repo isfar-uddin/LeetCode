@@ -108,6 +108,7 @@ The purpose of this repo is to collect all the leetcode solutions in one place
 |  |
 | ------- |
 | [0079-word-search](https://github.com/isfar-uddin/LeetCode/tree/master/0079-word-search) |
+| [0104-maximum-depth-of-binary-tree](https://github.com/isfar-uddin/LeetCode/tree/master/0104-maximum-depth-of-binary-tree) |
 | [0130-surrounded-regions](https://github.com/isfar-uddin/LeetCode/tree/master/0130-surrounded-regions) |
 | [0200-number-of-islands](https://github.com/isfar-uddin/LeetCode/tree/master/0200-number-of-islands) |
 | [0207-course-schedule](https://github.com/isfar-uddin/LeetCode/tree/master/0207-course-schedule) |
@@ -120,6 +121,7 @@ The purpose of this repo is to collect all the leetcode solutions in one place
 ## Breadth-First Search
 |  |
 | ------- |
+| [0104-maximum-depth-of-binary-tree](https://github.com/isfar-uddin/LeetCode/tree/master/0104-maximum-depth-of-binary-tree) |
 | [0127-word-ladder](https://github.com/isfar-uddin/LeetCode/tree/master/0127-word-ladder) |
 | [0130-surrounded-regions](https://github.com/isfar-uddin/LeetCode/tree/master/0130-surrounded-regions) |
 | [0200-number-of-islands](https://github.com/isfar-uddin/LeetCode/tree/master/0200-number-of-islands) |
@@ -172,6 +174,7 @@ The purpose of this repo is to collect all the leetcode solutions in one place
 ## Tree
 |  |
 | ------- |
+| [0104-maximum-depth-of-binary-tree](https://github.com/isfar-uddin/LeetCode/tree/master/0104-maximum-depth-of-binary-tree) |
 | [0226-invert-binary-tree](https://github.com/isfar-uddin/LeetCode/tree/master/0226-invert-binary-tree) |
 | [0653-two-sum-iv-input-is-a-bst](https://github.com/isfar-uddin/LeetCode/tree/master/0653-two-sum-iv-input-is-a-bst) |
 | [0789-kth-largest-element-in-a-stream](https://github.com/isfar-uddin/LeetCode/tree/master/0789-kth-largest-element-in-a-stream) |
@@ -183,6 +186,7 @@ The purpose of this repo is to collect all the leetcode solutions in one place
 ## Binary Tree
 |  |
 | ------- |
+| [0104-maximum-depth-of-binary-tree](https://github.com/isfar-uddin/LeetCode/tree/master/0104-maximum-depth-of-binary-tree) |
 | [0226-invert-binary-tree](https://github.com/isfar-uddin/LeetCode/tree/master/0226-invert-binary-tree) |
 | [0653-two-sum-iv-input-is-a-bst](https://github.com/isfar-uddin/LeetCode/tree/master/0653-two-sum-iv-input-is-a-bst) |
 | [0789-kth-largest-element-in-a-stream](https://github.com/isfar-uddin/LeetCode/tree/master/0789-kth-largest-element-in-a-stream) |
