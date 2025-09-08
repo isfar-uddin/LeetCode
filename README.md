@@ -16,6 +16,7 @@ The purpose of this repo is to collect all the leetcode solutions in one place
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/isfar-uddin/LeetCode/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0128-longest-consecutive-sequence](https://github.com/isfar-uddin/LeetCode/tree/master/0128-longest-consecutive-sequence) |
 | [0130-surrounded-regions](https://github.com/isfar-uddin/LeetCode/tree/master/0130-surrounded-regions) |
+| [0152-maximum-product-subarray](https://github.com/isfar-uddin/LeetCode/tree/master/0152-maximum-product-subarray) |
 | [0153-find-minimum-in-rotated-sorted-array](https://github.com/isfar-uddin/LeetCode/tree/master/0153-find-minimum-in-rotated-sorted-array) |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/isfar-uddin/LeetCode/tree/master/0167-two-sum-ii-input-array-is-sorted) |
 | [0200-number-of-islands](https://github.com/isfar-uddin/LeetCode/tree/master/0200-number-of-islands) |
@@ -95,6 +96,7 @@ The purpose of this repo is to collect all the leetcode solutions in one place
 |  |
 | ------- |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/isfar-uddin/LeetCode/tree/master/0121-best-time-to-buy-and-sell-stock) |
+| [0152-maximum-product-subarray](https://github.com/isfar-uddin/LeetCode/tree/master/0152-maximum-product-subarray) |
 ## Depth-First Search
 |  |
 | ------- |
