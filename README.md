@@ -12,6 +12,7 @@ The purpose of this repo is to collect all the leetcode solutions in one place
 | [0033-search-in-rotated-sorted-array](https://github.com/isfar-uddin/LeetCode/tree/master/0033-search-in-rotated-sorted-array) |
 | [0039-combination-sum](https://github.com/isfar-uddin/LeetCode/tree/master/0039-combination-sum) |
 | [0049-group-anagrams](https://github.com/isfar-uddin/LeetCode/tree/master/0049-group-anagrams) |
+| [0053-maximum-subarray](https://github.com/isfar-uddin/LeetCode/tree/master/0053-maximum-subarray) |
 | [0079-word-search](https://github.com/isfar-uddin/LeetCode/tree/master/0079-word-search) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/isfar-uddin/LeetCode/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0128-longest-consecutive-sequence](https://github.com/isfar-uddin/LeetCode/tree/master/0128-longest-consecutive-sequence) |
@@ -66,6 +67,7 @@ The purpose of this repo is to collect all the leetcode solutions in one place
 ## Divide and Conquer
 |  |
 | ------- |
+| [0053-maximum-subarray](https://github.com/isfar-uddin/LeetCode/tree/master/0053-maximum-subarray) |
 | [0347-top-k-frequent-elements](https://github.com/isfar-uddin/LeetCode/tree/master/0347-top-k-frequent-elements) |
 ## Heap (Priority Queue)
 |  |
@@ -100,6 +102,7 @@ The purpose of this repo is to collect all the leetcode solutions in one place
 |  |
 | ------- |
 | [0005-longest-palindromic-substring](https://github.com/isfar-uddin/LeetCode/tree/master/0005-longest-palindromic-substring) |
+| [0053-maximum-subarray](https://github.com/isfar-uddin/LeetCode/tree/master/0053-maximum-subarray) |
 | [0062-unique-paths](https://github.com/isfar-uddin/LeetCode/tree/master/0062-unique-paths) |
 | [0070-climbing-stairs](https://github.com/isfar-uddin/LeetCode/tree/master/0070-climbing-stairs) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/isfar-uddin/LeetCode/tree/master/0121-best-time-to-buy-and-sell-stock) |
