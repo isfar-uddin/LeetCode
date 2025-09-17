@@ -11,10 +11,12 @@
 0 1
 1 2
 '''
+from typing import List
 class Solution:
-    def twoSum(self, nums: List[int], target: int) -> List[int]:
-        for i in range(len(nums) - 1):
-          for j in range(i + 1, len(nums)):
-            sum = nums[i] + nums[j]
-            if sum == target:
-              return [i, j]
+    def twoSum(self, nums: List[int], target: int)->List[int]:
+        n={}
+        for i, num in enumerate(nums):
+            complement=target-num
+            if complement in n:
+                return [n[complement], i]
+            n[num]=i
