@@ -11,6 +11,7 @@ The purpose of this repo is to collect all the leetcode solutions in one place
 | [0015-3sum](https://github.com/isfar-uddin/LeetCode/tree/master/0015-3sum) |
 | [0033-search-in-rotated-sorted-array](https://github.com/isfar-uddin/LeetCode/tree/master/0033-search-in-rotated-sorted-array) |
 | [0039-combination-sum](https://github.com/isfar-uddin/LeetCode/tree/master/0039-combination-sum) |
+| [0040-combination-sum-ii](https://github.com/isfar-uddin/LeetCode/tree/master/0040-combination-sum-ii) |
 | [0049-group-anagrams](https://github.com/isfar-uddin/LeetCode/tree/master/0049-group-anagrams) |
 | [0053-maximum-subarray](https://github.com/isfar-uddin/LeetCode/tree/master/0053-maximum-subarray) |
 | [0079-word-search](https://github.com/isfar-uddin/LeetCode/tree/master/0079-word-search) |
@@ -252,6 +253,7 @@ The purpose of this repo is to collect all the leetcode solutions in one place
 |  |
 | ------- |
 | [0039-combination-sum](https://github.com/isfar-uddin/LeetCode/tree/master/0039-combination-sum) |
+| [0040-combination-sum-ii](https://github.com/isfar-uddin/LeetCode/tree/master/0040-combination-sum-ii) |
 | [0079-word-search](https://github.com/isfar-uddin/LeetCode/tree/master/0079-word-search) |
 ## Math
 |  |
