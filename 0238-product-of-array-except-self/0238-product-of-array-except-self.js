@@ -10,7 +10,6 @@ var productExceptSelf = function (nums) {
   for (let i = 1; i < nums.length; i++) {
     ans.push(ans[i - 1] * nums[i - 1]);
   }
-  console.log(ans)
 
   curr = 1;
 
