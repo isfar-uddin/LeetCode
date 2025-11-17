@@ -30,6 +30,7 @@ The purpose of this repo is to collect all the leetcode solutions in one place
 | [0347-top-k-frequent-elements](https://github.com/isfar-uddin/LeetCode/tree/master/0347-top-k-frequent-elements) |
 | [0377-combination-sum-iv](https://github.com/isfar-uddin/LeetCode/tree/master/0377-combination-sum-iv) |
 | [0417-pacific-atlantic-water-flow](https://github.com/isfar-uddin/LeetCode/tree/master/0417-pacific-atlantic-water-flow) |
+| [0496-next-greater-element-i](https://github.com/isfar-uddin/LeetCode/tree/master/0496-next-greater-element-i) |
 | [0695-max-area-of-island](https://github.com/isfar-uddin/LeetCode/tree/master/0695-max-area-of-island) |
 | [1036-rotting-oranges](https://github.com/isfar-uddin/LeetCode/tree/master/1036-rotting-oranges) |
 ## Hash Table
@@ -45,6 +46,7 @@ The purpose of this repo is to collect all the leetcode solutions in one place
 | [0242-valid-anagram](https://github.com/isfar-uddin/LeetCode/tree/master/0242-valid-anagram) |
 | [0347-top-k-frequent-elements](https://github.com/isfar-uddin/LeetCode/tree/master/0347-top-k-frequent-elements) |
 | [0424-longest-repeating-character-replacement](https://github.com/isfar-uddin/LeetCode/tree/master/0424-longest-repeating-character-replacement) |
+| [0496-next-greater-element-i](https://github.com/isfar-uddin/LeetCode/tree/master/0496-next-greater-element-i) |
 | [0653-two-sum-iv-input-is-a-bst](https://github.com/isfar-uddin/LeetCode/tree/master/0653-two-sum-iv-input-is-a-bst) |
 ## Sorting
 |  |
@@ -229,6 +231,7 @@ The purpose of this repo is to collect all the leetcode solutions in one place
 | ------- |
 | [0020-valid-parentheses](https://github.com/isfar-uddin/LeetCode/tree/master/0020-valid-parentheses) |
 | [0143-reorder-list](https://github.com/isfar-uddin/LeetCode/tree/master/0143-reorder-list) |
+| [0496-next-greater-element-i](https://github.com/isfar-uddin/LeetCode/tree/master/0496-next-greater-element-i) |
 ## Linked List
 |  |
 | ------- |
@@ -270,4 +273,8 @@ The purpose of this repo is to collect all the leetcode solutions in one place
 |  |
 | ------- |
 | [0062-unique-paths](https://github.com/isfar-uddin/LeetCode/tree/master/0062-unique-paths) |
+## Monotonic Stack
+|  |
+| ------- |
+| [0496-next-greater-element-i](https://github.com/isfar-uddin/LeetCode/tree/master/0496-next-greater-element-i) |
 <!---LeetCode Topics End-->
