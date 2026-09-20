@@ -280,4 +280,8 @@ The purpose of this repo is to collect all the leetcode solutions in one place
 | ------- |
 | [0496-next-greater-element-i](https://github.com/isfar-uddin/LeetCode/tree/master/0496-next-greater-element-i) |
 | [0503-next-greater-element-ii](https://github.com/isfar-uddin/LeetCode/tree/master/0503-next-greater-element-ii) |
+## Graph Theory
+|  |
+| ------- |
+| [0210-course-schedule-ii](https://github.com/isfar-uddin/LeetCode/tree/master/0210-course-schedule-ii) |
 <!---LeetCode Topics End-->
