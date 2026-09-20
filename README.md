@@ -33,6 +33,7 @@ The purpose of this repo is to collect all the leetcode solutions in one place
 | [0496-next-greater-element-i](https://github.com/isfar-uddin/LeetCode/tree/master/0496-next-greater-element-i) |
 | [0503-next-greater-element-ii](https://github.com/isfar-uddin/LeetCode/tree/master/0503-next-greater-element-ii) |
 | [0695-max-area-of-island](https://github.com/isfar-uddin/LeetCode/tree/master/0695-max-area-of-island) |
+| [0994-rotting-oranges](https://github.com/isfar-uddin/LeetCode/tree/master/0994-rotting-oranges) |
 | [1036-rotting-oranges](https://github.com/isfar-uddin/LeetCode/tree/master/1036-rotting-oranges) |
 ## Hash Table
 |  |
@@ -150,6 +151,7 @@ The purpose of this repo is to collect all the leetcode solutions in one place
 | [0653-two-sum-iv-input-is-a-bst](https://github.com/isfar-uddin/LeetCode/tree/master/0653-two-sum-iv-input-is-a-bst) |
 | [0684-redundant-connection](https://github.com/isfar-uddin/LeetCode/tree/master/0684-redundant-connection) |
 | [0695-max-area-of-island](https://github.com/isfar-uddin/LeetCode/tree/master/0695-max-area-of-island) |
+| [0994-rotting-oranges](https://github.com/isfar-uddin/LeetCode/tree/master/0994-rotting-oranges) |
 | [1036-rotting-oranges](https://github.com/isfar-uddin/LeetCode/tree/master/1036-rotting-oranges) |
 ## Matrix
 |  |
@@ -159,6 +161,7 @@ The purpose of this repo is to collect all the leetcode solutions in one place
 | [0200-number-of-islands](https://github.com/isfar-uddin/LeetCode/tree/master/0200-number-of-islands) |
 | [0417-pacific-atlantic-water-flow](https://github.com/isfar-uddin/LeetCode/tree/master/0417-pacific-atlantic-water-flow) |
 | [0695-max-area-of-island](https://github.com/isfar-uddin/LeetCode/tree/master/0695-max-area-of-island) |
+| [0994-rotting-oranges](https://github.com/isfar-uddin/LeetCode/tree/master/0994-rotting-oranges) |
 | [1036-rotting-oranges](https://github.com/isfar-uddin/LeetCode/tree/master/1036-rotting-oranges) |
 ## Graph
 |  |
