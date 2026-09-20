@@ -4,39 +4,44 @@
  * @return {boolean}
  */
 var canFinish = function (numCourses, prerequisites) {
-  const preMap = {};
-  const visited = {};
+    const visited = [];
+    const preMap = new Map();
 
-  const dfs = (node) => {
-    if (visited[node]) return false;
-    visited[node] = true;
+    const dfs = (course) => {
+        if (visited[course]) return false;
 
-    for (let i = 0; i < preMap[node]?.length; i++) {
-      const currNode = preMap[node][i];
-      if (!dfs(currNode)) {
-        return false;
-      }
+        visited[course] = true;
+        const courses = preMap.get(course);
+
+        for (let i = 0; i < courses?.length; i++) {
+            const currCourse = courses[i];
+            if (!dfs(currCourse)) {
+                return false;
+            }
+        }
+
+        preMap.set(course, []);
+        visited[course] = false;
+        return true;
     }
-    visited[node] = false;
-    preMap[node] = [];
+
+    for (let i = 0; i < prerequisites.length; i++) {
+        const course = prerequisites[i];
+        if (!preMap.has(course[0])) {
+            preMap.set(course[0], [course[1]]);
+        } else {
+            preMap.get(course[0]).push(course[1]);
+        }
+    }
+
+    console.log("Premap: ", preMap);
+
+    for (let [course] of preMap) {
+        console.log('course: ', course);
+        if (!dfs(course)) {
+            return false;
+        }
+    }
+
     return true;
-  }
-
-  for (let i = 0; i < prerequisites.length; i++) {
-    const course = prerequisites[i];
-
-    if (preMap[course[0]] === undefined) {
-      preMap[course[0]] = [course[1]];
-    } else {
-      preMap[course[0]].push(course[1]);
-    }
-  }
-
-  for(const key in preMap) {
-    if(!dfs(key)) {
-      return false;
-    }
-  }
-
-  return true;
 };
