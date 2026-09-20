@@ -4,48 +4,49 @@
  * @return {number[]}
  */
 var findOrder = function (numCourses, prerequisites) {
-    let courseOrder = [];
-    let mySet = new Set();
-    let preMap = {};
-    let visited = {};
+    const preMap = new Map();
+    const coursesSet = new Set();
+    const visited = [];
 
-    function dfs(course) {
+    const dfs = course => {
         if (visited[course]) return false;
+
         visited[course] = true;
 
-        for (let i = 0; i < preMap[course]?.length; i++) {
-            if (!dfs(preMap[course][i])) {
+        const preCourses = preMap.get(course);
+        for (let i = 0; i < preCourses?.length; i++) {
+            if (!dfs(preCourses[i])) {
                 return false;
             }
+            coursesSet.add(preCourses[i]);
         }
 
         visited[course] = false;
-        preMap[course] = [];
-        mySet.add(parseInt(course))
+        preMap.set(course, []);
+        coursesSet.add(course);
         return true;
     }
 
     for (let i = 0; i < prerequisites.length; i++) {
-        let courses = prerequisites[i];
-        if (preMap[courses[0]] == undefined) {
-            preMap[courses[0]] = [courses[1]];
+        const course = prerequisites[i];
+        if (!preMap.has(course[0])) {
+            preMap.set(course[0], [course[1]]);
         } else {
-            preMap[courses[0]].push(courses[1]);
+            preMap.get(course[0]).push(course[1]);
         }
     }
 
-    for (let i = 0; i < numCourses; i++) {
-        if (!preMap[i]) {
-            mySet.add(i);
+    for(let i = 0; i < numCourses; i++) {
+        if(!preMap.get(i)) {
+            coursesSet.add(i);
         }
     }
 
-    for (let key in preMap) {
-        if (!dfs(key)) {
+    for (let [course] of preMap) {
+        if (!dfs(course)) {
             return [];
         }
-        mySet.add(parseInt(key));
     }
 
-    return [...mySet];
+    return [...coursesSet];
 };
