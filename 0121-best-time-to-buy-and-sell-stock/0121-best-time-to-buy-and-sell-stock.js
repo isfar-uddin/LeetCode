@@ -2,17 +2,17 @@
  * @param {number[]} prices
  * @return {number}
  */
-var maxProfit = function(prices) {
-    let profit = 0;
-    let currMin = prices[0];
+var maxProfit = function (prices) {
+    let currMin = Number.POSITIVE_INFINITY;
+    let max = 0;
 
-    for(let i = 1; i < prices.length; i++) {
-      if(prices[i] < currMin) {
-        currMin = prices[i];
-      } else {
-        profit = Math.max(profit, prices[i] - currMin);
-      }
+    for (let i = 0; i < prices.length; i++) {
+        if (currMin > prices[i]) {
+            currMin = prices[i];
+        } else {
+            max = Math.max(max, prices[i] - currMin);
+        }
     }
 
-    return profit;
+    return max;
 };
