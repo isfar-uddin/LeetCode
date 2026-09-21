@@ -3,15 +3,14 @@
  * @return {number}
  */
 var climbStairs = function (n) {
-  let dp = [];
+    const dp = [];
+    const calculateWay = pos => {
+        if (pos > n) return 0;
+        if (pos == n) return 1;
+        if (dp[pos]) return dp[pos];
 
-  const calculateWays = (n) => {
-    if (dp[n]) return dp[n];
-    if (n <= 1) return 1;
+        return dp[pos] = calculateWay(pos + 1) + calculateWay(pos + 2);
+    }
 
-    dp[n] = calculateWays(n - 1) + calculateWays(n - 2);
-    return dp[n];
-  }
-
-  return calculateWays(n);
+    return calculateWay(0);
 };
