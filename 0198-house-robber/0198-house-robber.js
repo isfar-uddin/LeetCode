@@ -2,17 +2,16 @@
  * @param {number[]} nums
  * @return {number}
  */
-var rob = function (nums) {
-  const dp = [];
+var rob = function(nums) {
+    const dp = [];
+    const length = nums.length;
 
-  const calculateMoney = (index) => {
-    if (dp[index] !== undefined) return dp[index];
-    if (index >= nums.length) return 0;
+    const computeMoney = (index) => {
+        if(index > length - 1) return 0;
+        if(dp[index] !== undefined) return dp[index];
 
-    dp[index] = Math.max(nums[index] + calculateMoney(index + 2), calculateMoney(index + 1));
+        return dp[index] = Math.max(nums[index] + computeMoney(index + 2), computeMoney(index + 1));
+    }
 
-    return dp[index];
-  }
-
-  return calculateMoney(0);
+    return computeMoney(0);
 };
