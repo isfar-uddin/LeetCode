@@ -3,16 +3,17 @@
  * @return {number}
  */
 var rob = function (nums) {
-  let dp = Array.from({length: 2}, () => []);
+    const length = nums.length;
+    const dp = [[], []]
 
-  const findMoney = (index, isFirstTaken = 0) => {
-    if (dp[isFirstTaken][index] !== undefined) return dp[isFirstTaken][index];
+    if(nums.length == 1) return nums[0];
 
-    if (index >= nums.length || (isFirstTaken && index === nums.length - 1)) return 0;
+    const computeMoney = (index, isFirst) => {
+        if ((isFirst && index == length - 1) || index > length - 1) return 0;
+        if (dp[isFirst][index] !== undefined) return dp[isFirst][index];
 
-    dp[isFirstTaken][index] = Math.max(findMoney(index + 1, isFirstTaken), nums[index] + findMoney(index + 2, Number(isFirstTaken || index === 0)));
-    return dp[isFirstTaken][index];
-  }
+        return dp[isFirst][index] = Math.max(nums[index] + computeMoney(index + 2, isFirst), computeMoney(index + 1, isFirst))
+    }
 
-  return findMoney(0);
+    return Math.max(computeMoney(0, 1), computeMoney(1, 0));
 };
