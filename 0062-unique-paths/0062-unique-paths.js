@@ -3,17 +3,17 @@
  * @param {number} n
  * @return {number}
  */
-var uniquePaths = function (m, n) {
-  const dp = Array.from({ length: m + 1 }, () => []);
+var uniquePaths = function(m, n) {
+    const dp = Array.from({length: m}, () => []);
 
-  const findWay = (i, j) => {
-    if (i == m - 1 && j == n - 1) return 1;
-    if (dp[i][j] !== undefined) return dp[i][j];
-    if (i >= m || j >= n) return 0;
+    const findPaths = (i, j) => {
+        if(i < 0 || j < 0 || i >= m || j >= n) return 0;
+        if(i == m - 1 && j == n - 1) return 1;
 
-    dp[i][j] = findWay(i + 1, j) + findWay(i, j + 1);
-    return dp[i][j];
-  }
+        if(dp[i][j] !== undefined) return dp[i][j];
 
-  return findWay(0, 0);
+        return dp[i][j] = findPaths(i + 1, j) + findPaths(i, j + 1);
+    }
+
+    return findPaths(0, 0);
 };
