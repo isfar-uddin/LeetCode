@@ -70,6 +70,7 @@ The purpose of this repo is to collect all the leetcode solutions in one place
 | [0127-word-ladder](https://github.com/isfar-uddin/LeetCode/tree/master/0127-word-ladder) |
 | [0242-valid-anagram](https://github.com/isfar-uddin/LeetCode/tree/master/0242-valid-anagram) |
 | [0424-longest-repeating-character-replacement](https://github.com/isfar-uddin/LeetCode/tree/master/0424-longest-repeating-character-replacement) |
+| [1143-longest-common-subsequence](https://github.com/isfar-uddin/LeetCode/tree/master/1143-longest-common-subsequence) |
 ## Divide and Conquer
 |  |
 | ------- |
@@ -117,6 +118,7 @@ The purpose of this repo is to collect all the leetcode solutions in one place
 | [0213-house-robber-ii](https://github.com/isfar-uddin/LeetCode/tree/master/0213-house-robber-ii) |
 | [0322-coin-change](https://github.com/isfar-uddin/LeetCode/tree/master/0322-coin-change) |
 | [0377-combination-sum-iv](https://github.com/isfar-uddin/LeetCode/tree/master/0377-combination-sum-iv) |
+| [1143-longest-common-subsequence](https://github.com/isfar-uddin/LeetCode/tree/master/1143-longest-common-subsequence) |
 ## Depth-First Search
 |  |
 | ------- |
@@ -292,4 +294,8 @@ The purpose of this repo is to collect all the leetcode solutions in one place
 |  |
 | ------- |
 | [0207-course-schedule](https://github.com/isfar-uddin/LeetCode/tree/master/0207-course-schedule) |
+## Longest Common Subsequence
+|  |
+| ------- |
+| [1143-longest-common-subsequence](https://github.com/isfar-uddin/LeetCode/tree/master/1143-longest-common-subsequence) |
 <!---LeetCode Topics End-->
