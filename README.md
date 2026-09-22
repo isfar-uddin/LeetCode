@@ -298,4 +298,8 @@ The purpose of this repo is to collect all the leetcode solutions in one place
 |  |
 | ------- |
 | [1143-longest-common-subsequence](https://github.com/isfar-uddin/LeetCode/tree/master/1143-longest-common-subsequence) |
+## Manacher
+|  |
+| ------- |
+| [0005-longest-palindromic-substring](https://github.com/isfar-uddin/LeetCode/tree/master/0005-longest-palindromic-substring) |
 <!---LeetCode Topics End-->
