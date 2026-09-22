@@ -26,6 +26,7 @@ The purpose of this repo is to collect all the leetcode solutions in one place
 | [0213-house-robber-ii](https://github.com/isfar-uddin/LeetCode/tree/master/0213-house-robber-ii) |
 | [0217-contains-duplicate](https://github.com/isfar-uddin/LeetCode/tree/master/0217-contains-duplicate) |
 | [0238-product-of-array-except-self](https://github.com/isfar-uddin/LeetCode/tree/master/0238-product-of-array-except-self) |
+| [0300-longest-increasing-subsequence](https://github.com/isfar-uddin/LeetCode/tree/master/0300-longest-increasing-subsequence) |
 | [0322-coin-change](https://github.com/isfar-uddin/LeetCode/tree/master/0322-coin-change) |
 | [0347-top-k-frequent-elements](https://github.com/isfar-uddin/LeetCode/tree/master/0347-top-k-frequent-elements) |
 | [0377-combination-sum-iv](https://github.com/isfar-uddin/LeetCode/tree/master/0377-combination-sum-iv) |
@@ -116,6 +117,7 @@ The purpose of this repo is to collect all the leetcode solutions in one place
 | [0152-maximum-product-subarray](https://github.com/isfar-uddin/LeetCode/tree/master/0152-maximum-product-subarray) |
 | [0198-house-robber](https://github.com/isfar-uddin/LeetCode/tree/master/0198-house-robber) |
 | [0213-house-robber-ii](https://github.com/isfar-uddin/LeetCode/tree/master/0213-house-robber-ii) |
+| [0300-longest-increasing-subsequence](https://github.com/isfar-uddin/LeetCode/tree/master/0300-longest-increasing-subsequence) |
 | [0322-coin-change](https://github.com/isfar-uddin/LeetCode/tree/master/0322-coin-change) |
 | [0377-combination-sum-iv](https://github.com/isfar-uddin/LeetCode/tree/master/0377-combination-sum-iv) |
 | [1143-longest-common-subsequence](https://github.com/isfar-uddin/LeetCode/tree/master/1143-longest-common-subsequence) |
@@ -194,6 +196,7 @@ The purpose of this repo is to collect all the leetcode solutions in one place
 | [0033-search-in-rotated-sorted-array](https://github.com/isfar-uddin/LeetCode/tree/master/0033-search-in-rotated-sorted-array) |
 | [0153-find-minimum-in-rotated-sorted-array](https://github.com/isfar-uddin/LeetCode/tree/master/0153-find-minimum-in-rotated-sorted-array) |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/isfar-uddin/LeetCode/tree/master/0167-two-sum-ii-input-array-is-sorted) |
+| [0300-longest-increasing-subsequence](https://github.com/isfar-uddin/LeetCode/tree/master/0300-longest-increasing-subsequence) |
 ## Tree
 |  |
 | ------- |
@@ -302,4 +305,8 @@ The purpose of this repo is to collect all the leetcode solutions in one place
 |  |
 | ------- |
 | [0005-longest-palindromic-substring](https://github.com/isfar-uddin/LeetCode/tree/master/0005-longest-palindromic-substring) |
+## Longest Increasing Subsequence
+|  |
+| ------- |
+| [0300-longest-increasing-subsequence](https://github.com/isfar-uddin/LeetCode/tree/master/0300-longest-increasing-subsequence) |
 <!---LeetCode Topics End-->
