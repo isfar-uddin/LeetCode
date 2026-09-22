@@ -2,35 +2,28 @@
  * @param {string} s
  * @return {string}
  */
-var longestPalindrome = function (s) {
-    const length = s.length;
-    let start = 0;
+var longestPalindrome = function(s) {
     let maxLen = 1;
-    const dp = Array.from({ length }, () => new Array(length).fill(false));
+    let start = 0;
+    const n = s.length;
 
-    for (let i = 0; i < length; i++) {
-        dp[i][i] = true;
-    }
-
-    for (let i = 0; i < length - 1; i++) {
-        if (s[i] == s[i + 1]) {
-            dp[i][i + 1] = true;
-            maxLen = 2;
-            start = i;
+    const expand = (left, right) => {
+        while(left >= 0 && right < n && s[left] == s[right]) {
+            left--;
+            right++;
         }
+
+        return right - left - 1;
     }
 
-    for (let len = 3; len <= length; len++) {
-        for (let i = 0; i <= length - len; i++) {
-            let j = len + i - 1;
-            if (s[i] == s[j] && dp[i + 1][j - 1]) {
-                dp[i][j] = true;
+    for(let i = 0; i < n; i++) {
+        const oddLen = expand(i, i);
+        const evenLen = expand(i, i + 1);
+        const bestLen = Math.max(oddLen, evenLen);
 
-                if (len > maxLen) {
-                    start = i;
-                    maxLen = len;
-                }
-            }
+        if(bestLen > maxLen) {
+            maxLen = bestLen;
+            start = i - Math.floor(bestLen)/2 + 1;
         }
     }
 
